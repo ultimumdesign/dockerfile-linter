@@ -1,6 +1,6 @@
 {
-  "name": "dockerfile_lint",
-  "version": "0.3.3",
+  "name": "dockerfile-linter",
+  "version": "1.0.0",
   "description": "Utility for linting a docker file against accepted good practices",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:projectatomic/dockerfile_lint.git"
+    "url": "git@github.com:ultimumdesign/dockerfile-linter.git"
   },
   "keywords": [
     "dockerfile",
@@ -19,10 +19,10 @@
     "lint",
     "check"
   ],
-  "author": "Lindani Phiri",
+  "author": "Ultimum Design",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/projectatomic/dockerfile_lint/issues"
+    "url": "https://github.com/ultimumdesign/dockerfile-linter/issues"
   },
   "dependencies": {
     "commander": "~2.9.0",

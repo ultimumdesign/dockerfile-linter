@@ -1,6 +1,7 @@
-[![NPM](https://nodei.co/npm/dockerfile_lint.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dockerfile_lint/)
-[![Build Status](https://travis-ci.org/projectatomic/dockerfile_lint.svg?branch=master)](https://travis-ci.org/projectatomic/dockerfile_lint)
+# dockerfile-linter
+FORK OF https://github.com/projectatomic/dockerfile_lint/
 
+=== ORIGINAL DOCUMENTATION ===
 # dockerfile-lint
 A rule based 'linter' for [Dockerfiles](https://docs.docker.com/engine/reference/builder/). The linter rules can be used  to check file syntax as well as arbitrary semantic and best practice attributes determined by the rule file writer.
 The linter can also be used to check LABEL rules against docker images.
