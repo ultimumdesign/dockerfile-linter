@@ -17,6 +17,8 @@
        defined_namevals:
            Name:
              valueRegex: /[\w]+/
+             valueFunctionFile: customValidators.js
+             valueFunction: nameValidator
              message: "Label 'Name' is missing or has invalid format"
              level: "warn"
              required: true
